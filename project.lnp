@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+".\startup_lpc17xx.o"
+".\system_lpc17xx.o"
+"C:\Keil\ARM\CMSIS\uVision\LIB\ARM\RTX_CM3.lib"
+".\adc.o"
+".\glcd_spi_lpc1700.o"
+".\irq.o"
+".\led.o"
+".\kbd.o"
+".\adcuser.o"
+".\core_cm3.o"
+".\usbcore.o"
+".\usbdesc.o"
+".\usbdmain.o"
+".\usbhw.o"
+".\usbuser.o"
+".\project.o"
+C:\Keil\ARM\RV31\LIB\RTX_CM3.LIB
+--library_type=microlib --strict --scatter ".\project.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\project.map" -o .\project.axf
